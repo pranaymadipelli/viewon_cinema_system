@@ -37,6 +37,8 @@ function submitForm(e) {
 
     //   reset the form
     document.getElementById("contactForm").reset();
+
+    window.location = "./Pages/Home.html"
 }
 
 const saveMessages = (emailid, password) => {
