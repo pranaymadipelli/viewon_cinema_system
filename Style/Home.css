@@ -1,0 +1,150 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #0f0e0e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: flex;
+    width: 100%;
+    bottom: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0a0a0a;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #0f0e0e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: flex;
+    width: 100%;
+    bottom: 0;
+}
+
+.main {
+    width: 95%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.main-image {
+    width: 100%;
+}
+
+#img_main {
+    width: 100%;
+    height: 500px;
+}
+
+.LatestMovies {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Latest-Movies {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Movie {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.Movie-image {
+    width: 100%;
+    height: 70%;
+}
+
+.Movie-name {
+    width: 100%;
+    height: 20%;
+}
+
+#img_p1 {
+    width: 200px;
+    height: 200px;
+}
+
+#img_p2 {
+    width: 200px;
+    height: 200px;
+}
+
+#img_p3 {
+    width: 200px;
+    height: 200px;
+}
+
+.view-more {
+    margin-top: 20px;
+}

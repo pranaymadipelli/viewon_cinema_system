@@ -4,165 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VIEWON CINEMA SYSTEM</title>
-    <link rel="stylesheet" href="styles.css">
+    <title> VIEWON CINEMA SYSTEM</title>
+    <link rel="stylesheet" href="Style/Styles.css">
 </head>
 
 <body>
     <header>
-        <h1>VIEWON CINEMA SYSTEM</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </nav>
+        <h1> VIEWON CINEMA SYSTEM</h1>
+
     </header>
 
     <main>
-        <div class="login-container">
-            <h2>Login</h2>
-            <form action="#">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
 
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
+        <body>
+            <div class="container">
+                <form action="" id="contactForm">
+                    <div class="alert">Succesfully login</div>
 
-                <button type="submit">Login</button>
-            </form>
-        </div>
+                    <div class="inputBox">
+                        <input type="email" id="emailid" placeholder="Your Email...." />
+                    </div>
+
+                    <div class="inputBox">
+                        <input type="password" id="password" placeholder="Your Password....." />
+                    </div>
+
+
+
+                    <div class="inputBox">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+            <script src="./mail.js"></script>
+        </body>
+
     </main>
 
-    <footer>
-        <ul>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Feedback</a></li>
-            <li><a href="#">Rate Us</a></li>
-        </ul>
-    </footer>
-</body>
 
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VIEWON CINEMA SYSTEM</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-    <header>
-        <h1>VIEWON CINEMA SYSTEM</h1>
-        <nav>
-            <ul>
-                <li><button>Welcome Admin</button></li>
-                <li><button>Home</button></li>
-                <li><button>Movies</button></li>
-                <li><button>Documentary</button></li>
-                <li><button>Series</button></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <h2>Watch Films, Series, Documentary Online</h2>
-        <div class="search-box">
-            <input type="text" placeholder="Search...">
-            <button>Search</button>
-        </div>
-    </main>
-
-    <footer>
-        <ul>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Feedback</a></li>
-            <li><a href="#">Rate Us</a></li>
-        </ul>
-    </footer>
-</body>
-
-</html>
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VIEWON CINEMA SYSTEM</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-    <header>
-        <h1>VIEWON CINEMA SYSTEM</h1>
-    </header>
-    <main>
-        <h2>Now Streaming: STRANGER THINGS</h2>
-        <img src="" C:\Users\Vinay Madipelli\Downloads\879599.png "" alt="Stranger Things">
-        <p>Action, Thriller, 2022, Season 4</p>
-        <div class="buttons">
-            <button onclick="watchNow()">Watch Now</button>
-            <button onclick="watchLater()">Watch Later</button>
-        </div>
-    </main>
-    <footer>
-        <a href="contact.html">Contact Us</a>
-        <a href="feedback.html">Feedback</a>
-        <a href="rate.html">Rate Us</a>
-    </footer>
-
-    <script>
-        function watchNow() {
-            alert("Redirecting to Watch Now!");
-        }
-
-        function watchLater() {
-            alert("Added to Watch Later list!");
-        }
-    </script>
-</body>
-
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VIEWON CINEMA SYSTEM</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-    <header>
-        <h1>VIEWON CINEMA SYSTEM</h1>
-    </header>
-    <main>
-        <div class="photo-container">
-            <img src="C:\Users\Vinay Madipelli\Downloads\Pranay M\image.jpg" alt="Cinema Photo">
-        </div>
-        <div class="buttons-container">
-            <button class="icon-button" id="backward-button">
-                &#9664;&#9664;
-            </button>
-            <button class="icon-button" id="play-button">
-                &#9654;
-            </button>
-            <button class="icon-button" id="forward-button">
-                &#9654;&#9654;
-            </button>
-            <button class="icon-button" id="volume-button">
-                &#128266;
-            </button>
-        </div>
-    </main>
 </body>
 
 </html>
